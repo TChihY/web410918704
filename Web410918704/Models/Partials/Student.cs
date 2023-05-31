@@ -17,7 +17,8 @@ namespace Web410918704.Models
         [Required(ErrorMessage ="請填寫姓名")]
         [Display(Name ="姓名")]
         [StringLength(10,ErrorMessage ="請勿超過10個字串")]
-        public string Name{ get; set; }
+        public string Username
+        { get; set; }
 
         [Required(ErrorMessage = "請填寫學號")]
         [Display(Name = "學號")]
